@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+body{
+    font-family: "Doto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 50%);
+}
+
+.calculator{
+    border: 1px solid;
+    padding: 30px 20px;
+    background-color: hsl(0, 0%, 10%);
+}
+
+#display{
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 30%);
+    cursor: pointer;
+}
+
+.operator-btn{
+    background-color: hsl(38, 100%, 30%);
+}
+
+.operator-btn:hover{
+    background-color: hsl(38, 100%, 40%);
+}
+
+.operator-btn:active{
+    background-color: hsl(38, 100%, 50%);
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
